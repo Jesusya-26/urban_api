@@ -11,6 +11,7 @@ from .service_types import ServiceTypesDTO, ServiceTypesNormativesDTO, UrbanFunc
 from .services import ServiceDTO, ServiceWithGeometryDTO
 from .territories import TerritoryDTO, TerritoryTypeDTO, TerritoryWithoutGeometryDTO
 from .users import TokensTuple, UserDTO
+from .projects import ProjectDTO, ProjectTerritoryDTO
 
 __all__ = [
     "TerritoryTypeDTO",
@@ -33,4 +34,6 @@ __all__ = [
     "FunctionalZoneDataDTO",
     "TerritoryWithoutGeometryDTO",
     "UrbanFunctionDTO",
+    "ProjectDTO",
+    "ProjectTerritoryDTO",
 ]

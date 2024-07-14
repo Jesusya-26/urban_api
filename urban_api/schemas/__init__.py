@@ -42,6 +42,16 @@ from .territories import (
     TerritoryTypesPost,
     TerritoryWithoutGeometry,
 )
+from .projects import (
+    Project,
+    ProjectPost,
+    ProjectPut,
+    ProjectPatch,
+    ProjectTerritory,
+    ProjectTerritoryPost,
+    ProjectTerritoryPut,
+    ProjectTerritoryPatch,
+)
 
 __all__ = [
     "PingResponse",
@@ -88,4 +98,12 @@ __all__ = [
     "UrbanFunction",
     "UrbanFunctionPost",
     "Page",
+    "Project",
+    "ProjectPost",
+    "ProjectPut",
+    "ProjectPatch",
+    "ProjectTerritory",
+    "ProjectTerritoryPost",
+    "ProjectTerritoryPut",
+    "ProjectTerritoryPatch",
 ]

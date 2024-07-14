@@ -19,3 +19,5 @@ from urban_api.db.entities.urban_types_dicts import (
     service_types_dict,
     territory_types_dict,
 )
+from urban_api.db.entities.projects_data import projects_data
+from urban_api.db.entities.projects_territory_data import projects_territory_data
